@@ -29,11 +29,7 @@ cd subscription-dashboard
 
 ### 2. Quick Setup (Windows - Recommended)
 ```bash
-# Option A: Use batch files (easiest)
-setup.bat  # Installs all dependencies
-run.bat    # Starts both servers
-
-# Option B: Use npm scripts (Windows only)
+ Use npm scripts
 cd frontend
 npm run setup  # Installs both frontend and backend dependencies
 npm run dev    # Starts both frontend and backend servers
